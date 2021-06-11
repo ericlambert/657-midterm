@@ -1,4 +1,4 @@
-import { Platform, StyleSheet, StatusBar, TouchableWithoutFeedback } from "react-native";
+import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   container: {
@@ -8,6 +8,8 @@ export default StyleSheet.create({
     width: 250,
     height: 300,
     padding: 10,
+    margin: 5,
+    marginTop: 30,
     borderWidth: 1,
     borderStyle: 'solid',
     borderColor: 'lightgrey',
@@ -18,7 +20,7 @@ export default StyleSheet.create({
     borderRadius: 3,
     borderStyle: 'solid',
     borderColor: 'lightgrey',
-    width: 200,
+    width: 190,
     padding: 1,
     margin: 2,
   },
@@ -73,17 +75,17 @@ export default StyleSheet.create({
     fontSize: 12,
   },
 
-
-
   compareText: {
     justifyContent: 'flex-start', 
     color: "green",
+    fontWeight: "bold",
     fontSize: 12,
   },
 
   errText: {
     justifyContent: 'flex-start', 
     color: "red",
+    fontWeight: "bold",
     fontSize: 12,
   },
 });

@@ -67,7 +67,6 @@ export default function App() {
 
       <TouchableOpacity
         style={styles.button}
-        title="COMPARE2" 
         onPress={() => setMessage(validatedCompare())}>
           <Text style={styles.buttonText}>COMPARE</Text>
       </TouchableOpacity>

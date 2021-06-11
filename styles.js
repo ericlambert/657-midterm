@@ -9,7 +9,7 @@ export default StyleSheet.create({
     height: 300,
     padding: 10,
     margin: 5,
-    marginTop: 30,
+    marginTop: 30, // stay clear of statusbar
     borderWidth: 0,
     borderStyle: 'solid',
     borderColor: 'lightgrey',

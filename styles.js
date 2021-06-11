@@ -50,13 +50,13 @@ export default StyleSheet.create({
     borderRadius: 3,
     padding: 5,
     borderStyle: 'solid',
-    borderColor: 'lightblue',
+    borderColor: '#007AFF',
     backgroundColor: 'white',
   },
 
   buttonText: {
     justifyContent: 'flex-start', 
-    color: "lightblue",
+    color: "#007AFF",
     fontWeight: "bold",
     fontSize: 12,
   },

@@ -5,8 +5,8 @@ import Box from './box'
 import styles from './styles'
 
 export default function App() {
-  const [number1, setNumber1] = React.useState(0);
-  const [number2, setNumber2] = React.useState(0);
+  const [number1, setNumber1] = React.useState('');
+  const [number2, setNumber2] = React.useState('');
   const [message, setMessage] = React.useState('');
   const errorMsg = 'Invalid input, please try again.'
 

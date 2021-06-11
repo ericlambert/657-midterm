@@ -10,7 +10,7 @@ export default StyleSheet.create({
     padding: 10,
     margin: 5,
     marginTop: 30,
-    borderWidth: 1,
+    borderWidth: 0,
     borderStyle: 'solid',
     borderColor: 'lightgrey',
   },
